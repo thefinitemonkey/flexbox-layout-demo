@@ -1,0 +1,10 @@
+<h2 class="mat-h2">Line Items</h2>
+<div class="line-item-list">
+    <app-header-item [header]="header"></app-header-item>
+    <ng-template ngFor let-item [ngForOf]='items' let-i='index' let-last='last' let-first='first'>
+        <app-line-item [item]="item" [last]="last" [first]="first"></app-line-item>
+    </ng-template>
+</div>
+<div class="line-item-list-cta">
+    <button mat-raised-button color="primary">Create New Line</button>
+</div>

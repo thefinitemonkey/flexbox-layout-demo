@@ -1,0 +1,11 @@
+.line-item-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px;
+}
+
+.line-item-list-cta {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}

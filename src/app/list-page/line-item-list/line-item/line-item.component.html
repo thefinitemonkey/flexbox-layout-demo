@@ -1,0 +1,7 @@
+<div [ngClass]="{'line-item': true, 'last-item': last == true}">
+    <div class="attribute-1">{{ item.id }}</div>
+    <div class="attribute-2">{{ item.client }}</div>
+    <div class="attribute-3">{{ item.status }}</div>
+    <div class="attribute-4">{{ item.date.getMonth() + 1 }}/{{ item.date.getDate() }}/{{ item.date.getFullYear() }}</div>
+    <div class="attribute-5">${{ item.amount }}</div>
+</div>
