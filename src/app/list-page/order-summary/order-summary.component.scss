@@ -1,0 +1,18 @@
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.order-subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
