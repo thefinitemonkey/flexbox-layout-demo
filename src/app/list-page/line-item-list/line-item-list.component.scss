@@ -1,9 +1,17 @@
 .line-item-list {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 20px;
+    margin: 0 0 20px 0;
     background-color: white;
-    padding: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+.line-item-list-header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0px;
+    background-color: white;
+    padding: 15px 15px 0 15px;
 }
 
 .line-item-list-cta {
@@ -11,3 +19,11 @@
     flex-flow: row;
     justify-content: flex-end;
 }
+
+@media only screen and (max-width: 700px) {
+    .line-item-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+  }

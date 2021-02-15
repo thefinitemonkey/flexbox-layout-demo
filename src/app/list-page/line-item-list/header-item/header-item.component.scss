@@ -29,3 +29,15 @@
     width: calc(100% * 1/6);
     margin: 0 5px 0;
 }
+
+@media only screen and (max-width: 700px) {
+    .header-item {
+        display: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+    }
+  }

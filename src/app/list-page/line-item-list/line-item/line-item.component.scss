@@ -36,3 +36,11 @@
     margin: 0 5px 0;
     text-align: right;
 }
+
+@media only screen and (max-width: 700px) {
+    .line-item {
+        flex-direction: column;
+        min-width: 200px;
+        flex: 1;
+    }
+  }

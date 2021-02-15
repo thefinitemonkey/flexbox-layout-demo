@@ -12,3 +12,19 @@
     flex: 1;
     position: relative;
 }
+
+@media only screen and (max-width: 900px) {
+    .list-page-flex {
+        flex-direction: column;
+    }
+
+    .list-space {
+        flex: 1;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .summary-space {
+        flex: 1;
+    }
+  }

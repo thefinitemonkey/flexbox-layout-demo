@@ -1,6 +1,8 @@
 <h2 class="mat-h2">Line Items</h2>
-<div class="line-item-list">
+<div class="line-item-list-header">
     <app-header-item [header]="header"></app-header-item>
+</div>
+<div class="line-item-list">
     <ng-template ngFor let-item [ngForOf]='items' let-i='index' let-last='last' let-first='first'>
         <app-line-item [item]="item" [last]="last" [first]="first"></app-line-item>
     </ng-template>
