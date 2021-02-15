@@ -1,0 +1,18 @@
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+
+.menu-item {
+    border-right: white 1px solid;
+    margin-left: 10px;
+    padding-left: 5px;
+    margin-right: 5px;
+    padding-right: 15px;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}

@@ -14,6 +14,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { OrderSummaryComponent } from './list-page/order-summary/order-summary.component';
 import { ListPageLayoutComponent } from './list-page/list-page-layout/list-page-layout.component';
 import { MainContainerComponent } from './main-container/main-container.component';
+import { MenuPlaceholderComponent } from './menu-placeholder/menu-placeholder.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MainContainerComponent } from './main-container/main-container.componen
     HeaderItemComponent,
     OrderSummaryComponent,
     ListPageLayoutComponent,
-    MainContainerComponent
+    MainContainerComponent,
+    MenuPlaceholderComponent
   ],
   imports: [
     BrowserModule,
