@@ -8,6 +8,10 @@
     &.last-item {
         border-bottom: none;
     }
+
+    & .card-label {
+        display: none;
+    }
 }
 
 .attribute-1 {
@@ -42,5 +46,11 @@
         flex-direction: column;
         min-width: 200px;
         flex: 1;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .line-item .card-label {
+        display: block;
     }
   }

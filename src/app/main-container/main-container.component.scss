@@ -1,5 +1,23 @@
+.header-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .logo-space {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personalization-space {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.company-line {
+    margin-top: 10px;
 }
 
 .logo-space-title {
