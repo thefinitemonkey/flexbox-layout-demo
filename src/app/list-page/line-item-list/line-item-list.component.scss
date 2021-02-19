@@ -1,17 +1,17 @@
 .line-item-list {
     display: flex;
     flex-direction: column;
-    margin: 0 0 20px 0;
+    margin: 0 0 1.25rem 0;
     background-color: white;
-    padding: 0 15px 15px 15px;
+    padding: 0 0.9375rem 0.9375rem 0.9375rem;
 }
 
 .line-item-list-header {
     display: flex;
     flex-direction: column;
-    margin: 20px 0 0px;
+    margin: 1.25rem 0 0px;
     background-color: white;
-    padding: 15px 15px 0 15px;
+    padding: 0.9375rem 0.9375rem 0 0.9375rem;
 }
 
 .line-item-list-cta {
