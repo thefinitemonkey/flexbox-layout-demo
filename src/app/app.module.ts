@@ -10,6 +10,7 @@ import { HeaderItemComponent } from './list-page/line-item-list/header-item/head
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 import { OrderSummaryComponent } from './list-page/order-summary/order-summary.component';
 import { ListPageLayoutComponent } from './list-page/list-page-layout/list-page-layout.component';
@@ -34,6 +35,7 @@ import { MenuPlaceholderComponent } from './menu-placeholder/menu-placeholder.co
     MatButtonModule,
     MatInputModule,
     MatFormFieldModule,
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

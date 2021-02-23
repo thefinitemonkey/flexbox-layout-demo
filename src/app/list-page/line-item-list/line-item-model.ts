@@ -4,5 +4,6 @@ export interface LineItemModel {
     status: string;
     date: Date;
     amount: string;
+    details: string[];
 }
 

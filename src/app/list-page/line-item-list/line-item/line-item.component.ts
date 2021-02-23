@@ -11,9 +11,14 @@ export class LineItemComponent implements OnInit {
   @Input() last: boolean = false;
   @Input() first: boolean = false;
 
+  expanded: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  switchExpanded() {
+    this.expanded = !this.expanded;
+  }
 }

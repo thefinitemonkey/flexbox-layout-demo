@@ -23,6 +23,7 @@ export class LineItemListComponent implements OnInit {
       status: 'Approved',
       date: new Date(),
       amount: (1000 * Math.random()).toFixed(2),
+      details: [],
     },
     {
       id: 2,
@@ -30,6 +31,7 @@ export class LineItemListComponent implements OnInit {
       status: 'Approved',
       date: new Date(),
       amount: (1000 * Math.random()).toFixed(2),
+      details: ["text", "text", "text", "text"]
     },
     {
       id: 3,
@@ -37,6 +39,7 @@ export class LineItemListComponent implements OnInit {
       status: 'Declined',
       date: new Date(),
       amount: (1000 * Math.random()).toFixed(2),
+      details: [],
     },
     {
       id: 4,
@@ -44,6 +47,7 @@ export class LineItemListComponent implements OnInit {
       status: 'Approved',
       date: new Date(),
       amount: (1000 * Math.random()).toFixed(2),
+      details: [],
     },
     {
       id: 5,
@@ -51,6 +55,7 @@ export class LineItemListComponent implements OnInit {
       status: 'Mystery',
       date: new Date(),
       amount: (1000 * Math.random()).toFixed(2),
+      details: [],
     },
   ];
 
