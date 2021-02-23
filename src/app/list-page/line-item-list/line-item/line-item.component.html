@@ -1,5 +1,5 @@
 <div [ngClass]="{ 'line-item': true, 'last-item': last == true }">
-  <div class="line-item-summary">
+  <div class="line-item-summary" (click)="switchExpanded()">
     <div class="attribute-1">{{ item.id }}</div>
     <div class="attribute-2">{{ item.client }}</div>
     <div class="attribute-3">{{ item.status }}</div>
@@ -10,12 +10,9 @@
     </div>
     <div class="attribute-5">${{ item.amount }}</div>
     <div class="attribute-6">
-      <span
-        *ngIf="item.details.length > 0"
-        class="expander-control"
-        (click)="switchExpanded()"
-        >{{ expanded ? "-" : "+" }}</span
-      >
+      <span *ngIf="item.details.length > 0" class="expander-control">{{
+        expanded ? "-" : "+"
+      }}</span>
     </div>
   </div>
   <mat-expansion-panel
