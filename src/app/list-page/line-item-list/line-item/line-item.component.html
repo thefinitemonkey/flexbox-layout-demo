@@ -10,10 +10,20 @@
     </div>
     <div class="attribute-5">${{ item.amount }}</div>
     <div class="attribute-6">
-      <span *ngIf="item.details.length > 0" class="expander-control" (click)="switchExpanded()">{{ expanded?"-":"+" }}</span>
+      <span
+        *ngIf="item.details.length > 0"
+        class="expander-control"
+        (click)="switchExpanded()"
+        >{{ expanded ? "-" : "+" }}</span
+      >
     </div>
   </div>
-  <mat-expansion-panel *ngIf="item.details.length > 0" hideToggle="true" expanded="{{expanded}}" style="box-shadow: none;">
+  <mat-expansion-panel
+    *ngIf="item.details.length > 0"
+    hideToggle="true"
+    expanded="{{ expanded }}"
+    style="box-shadow: none"
+  >
     <div class="line-item-details">
       <div *ngFor="let detail of item.details; index as i">
         {{ detail }}
